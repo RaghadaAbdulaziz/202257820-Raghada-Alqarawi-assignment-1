@@ -176,4 +176,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-console.log("🚀 Portfolio loaded successfully! Theme system, smooth scrolling, and form validation are active.");
+console.log(" Portfolio loaded successfully! Theme system, smooth scrolling, and form validation are active.");
