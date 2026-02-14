@@ -19,5 +19,5 @@ This portfolio is a client-side web application designed to demonstrate proficie
 - **Mobile/Tablet:** < 768px (1-column layout, stacked hero elements, and adjusted font sizes).
 
 ## Known Issues & Future Improvements
-- **Future Feature:** Integration of a real email API (like EmailJS).
-- **Future Feature:** Adding an image lazy-loading system for the project thumbnails.
+- **Future Feature:** Design and implement a personal brand logo as a browser tab icon.
+- **Future Feature:** Add a floating button that appears after scrolling down to help users return to the navigation bar quickly.
