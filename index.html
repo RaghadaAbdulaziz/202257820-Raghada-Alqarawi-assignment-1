@@ -1,0 +1,140 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghada Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="nav-container">
+        <div class="brand">
+            <span class="brand-dot"></span>
+            <h1 class="logo">Raghada Alqarawi</h1>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button id="themeBtn" class="theme-btn" type="button">Theme</button>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-inner">
+
+
+        <h1 class="hero-title">Hi, I’m Raghada Alqarawi.</h1>
+
+        <h3 class="hero-subtitle">
+            Software Engineering Student • Web Developer
+        </h3>
+
+        <p class="hero-text">
+            I build structured, user-friendly applications with a focus on clarity, usability, and clean implementation.
+        </p>
+
+        <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="section-head">
+        <h2>About Me</h2>
+
+    </div>
+
+    <div class="about-card">
+        <p>
+            I’m Raghada Alqarawi, a Software Engineering student focused on creating well-structured and user-friendly web applications.
+            I enjoy turning requirements into clean interfaces and improving solutions through careful design and implementation.
+            I’m always learning and refining my skills through practical projects.
+        </p>
+
+        <div class="tags">
+            <span class="tag">Clean UI</span>
+            <span class="tag">Structured Code</span>
+            <span class="tag">Problem Solving</span>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <div class="section-head">
+        <h2>Projects</h2>
+
+    </div>
+
+    <div class="cards">
+
+        <article class="card">
+            <div class="card-top"></div>
+            <h3>Event Planner</h3>
+            <p>
+                A planning application concept to organize events, manage schedules, and track tasks to ensure smooth coordination.
+                It focuses on clear timelines, roles, and deliverables.
+            </p>
+            <div class="tags">
+                <span class="tag">Scheduling</span>
+                <span class="tag">Task Tracking</span>
+                <span class="tag">Coordination</span>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-top"></div>
+            <h3>KFUPMMap</h3>
+            <p>
+                A campus navigation application designed to calculate distances between KFUPM buildings and support efficient route planning.
+                The goal is to provide simple inputs and clear distance output for better daily scheduling.
+            </p>
+            <div class="tags">
+                <span class="tag">Navigation</span>
+                <span class="tag">Distance</span>
+                <span class="tag">UX</span>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-top"></div>
+            <h3>Study Planner</h3>
+            <p>
+                A personal planning tool concept to organize study goals, track weekly progress, and prioritize tasks before deadlines.
+                Designed to support time management and consistent productivity.
+            </p>
+            <div class="tags">
+                <span class="tag">Time Management</span>
+                <span class="tag">Goals</span>
+                <span class="tag">Productivity</span>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="section-head">
+        <h2>Contact</h2>
+    </div>
+
+    <form id="contactForm" class="contact">
+        <input id="name" type="text" placeholder="Name" required>
+        <input id="email" type="email" placeholder="Email" required>
+        <textarea id="message" placeholder="Message" rows="5" required></textarea>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p id="formMessage" class="muted"></p>
+    </form>
+</section>
+
+<script src="js/script.js"></script>
+</body>
